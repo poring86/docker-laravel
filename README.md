@@ -2,7 +2,7 @@
 
 ## About the project
 
-It's a basic dockerized laravel project
+A basic dockerized laravel project
 
 ## Some of technologies used on the project
 
