@@ -36,11 +36,11 @@ DB_DATABASE=homestead
 DB_USERNAME=homestead
 DB_PASSWORD=secret
 
+## Start the server, php and mysl
+docker-compose up -d server php mysql
+
 ## Run the migrations
 docker-compose run --rm  artisan migrate
-
-## Start the project
-docker-compose up -d server php mysql
 
 ```
 
